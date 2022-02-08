@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>WallHeaven</title>
   <link rel="stylesheet" href="{{ asset('css/home.css') }}">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -69,112 +69,422 @@
         </div>
 
         <main class="front">
-            <div>
+            <div class="main-row">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="category__title">
-                            <a href="#" title="Animal Wallpaper">Animal</a>
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
                         </div>
                         <div class="category__list">
-                            <a class="category__list__item" href="https://wallpapers.com/wolf" title="Wolf Wallpaper">Wolf</a>
-                            <a class="category__list__item" href="https://wallpapers.com/dragon" title="Dragon Wallpaper">Dragon</a>
-                            <a class="category__list__item" href="https://wallpapers.com/unicorn" title="Unicorn Wallpaper">Unicorn</a>
-                            <a class="category__list__item" href="https://wallpapers.com/cat" title="Cat Wallpaper">Cat</a>
-                            <a class="category__list__item" href="https://wallpapers.com/lion" title="Lion Wallpaper">Lion</a>
-                            <a class="category__list__item" href="https://wallpapers.com/butterfly" title="Butterfly Wallpaper">Butterfly</a>
-                            <a class="category__list__item" href="https://wallpapers.com/tiger" title="Tiger Wallpaper">Tiger</a>
-                            <a class="category__list__item" href="https://wallpapers.com/fox" title="Fox Wallpaper">Fox</a>
-                            <a class="category__list__item" href="https://wallpapers.com/elephant" title="Elephant Wallpaper">Elephant</a>
-                            <a class="category__list__item" href="https://wallpapers.com/dog" title="Dog Wallpaper">Dog</a>
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
                         </div>
                     </div>
-                <div class="col-md-3">
-					<div class="category__title">
-						<a href="https://wallpapers.com/anime" title="Anime Wallpaper">Anime</a>
-					</div>
-                    <div class="category__list">
-                        <a class="category__list__item" href="https://wallpapers.com/naruto" title="Naruto Wallpaper">Naruto</a>
-                        <a class="category__list__item" href="https://wallpapers.com/pokemon" title="Pokemon Wallpaper">Pokemon</a>
-                        <a class="category__list__item" href="https://wallpapers.com/my-hero-academia" title="My Hero Academia Wallpaper">My Hero Academia</a>
-                        <a class="category__list__item" href="https://wallpapers.com/demon-slayer" title="Demon Slayer Wallpaper">Demon Slayer</a>
-                        <a class="category__list__item" href="https://wallpapers.com/tokyo-ghoul" title="Tokyo Ghoul Wallpaper">Tokyo Ghoul</a>
-                        <a class="category__list__item" href="https://wallpapers.com/one-piece" title="One Piece Wallpaper">One Piece</a>
-                        <a class="category__list__item" href="https://wallpapers.com/attack-on-titan" title="Attack On Titan Wallpaper">Attack On Titan</a>
-                        <a class="category__list__item" href="https://wallpapers.com/cowboy-bebop" title="Cowboy Bebop Wallpaper">Cowboy Bebop</a>
-                        <a class="category__list__item" href="https://wallpapers.com/fairy-tail" title="Fairy Tail Wallpaper">Fairy Tail</a>
-                        <a class="category__list__item" href="https://wallpapers.com/one-punch-man" title="One Punch Man Wallpaper">One Punch Man</a>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+
+                </div>
+                 <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+
+                </div>
+                 <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+
+                </div>
+                 <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+
+                </div>
+                 <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+
+                </div>
+                 <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="category__title">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="category__title a-tag">
+                            <a href="" title="Animal Wallpaper" class="a-tag">Animal</a>
+                        </div>
+                        <div class="category__list">
+                            <a class="category__list__item a-tag" href="" title="Wolf Wallpaper">Wolf</a>
+                            <a class="category__list__item a-tag" href="" title="Dragon Wallpaper">Dragon</a>
+                            <a class="category__list__item a-tag" href="" title="Unicorn Wallpaper">Unicorn</a>
+                            <a class="category__list__item a-tag" href="" title="Cat Wallpaper">Cat</a>
+                            <a class="category__list__item a-tag" href="" title="Lion Wallpaper">Lion</a>
+                            <a class="category__list__item a-tag" href="" title="Butterfly Wallpaper">Butterfly</a>
+                            <a class="category__list__item a-tag" href="" title="Tiger Wallpaper">Tiger</a>
+                            <a class="category__list__item a-tag" href="" title="Fox Wallpaper">Fox</a>
+                            <a class="category__list__item a-tag" href="" title="Elephant Wallpaper">Elephant</a>
+                            <a class="category__list__item a-tag" href="" title="Dog Wallpaper">Dog</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-					<div class="category__title">
-						<a href="https://wallpapers.com/background" title="Background Wallpaper">Background</a>
-					</div>
-                    <div class="category__list">
-                        <a class="category__list__item" href="https://wallpapers.com/aesthetic" title="Aesthetic Wallpaper">Aesthetic</a>
-                        <a class="category__list__item" href="https://wallpapers.com/minimalist" title="Minimalist Wallpaper">Minimalist</a>
-                        <a class="category__list__item" href="https://wallpapers.com/live" title="Live Wallpaper">Live</a>
-                        <a class="category__list__item" href="https://wallpapers.com/abstract" title="Abstract Wallpaper">Abstract</a>
-                        <a class="category__list__item" href="https://wallpapers.com/textured" title="Textured Wallpaper">Textured</a>
-                        <a class="category__list__item" href="https://wallpapers.com/brick" title="Brick Wallpaper">Brick</a>
-                        <a class="category__list__item" href="https://wallpapers.com/vintage" title="Vintage Wallpaper">Vintage</a>
-                        <a class="category__list__item" href="https://wallpapers.com/retro" title="Retro Wallpaper">Retro</a>
-                        <a class="category__list__item" href="https://wallpapers.com/marble" title="Marble Wallpaper">Marble</a>
-                        <a class="category__list__item" href="https://wallpapers.com/geometric" title="Geometric Wallpaper">Geometric</a>
+                {{-- a tag end --}}
+               <div>
+                    <div class="section-title">
+                        <span class="d-flex" style="align-items: center">
+                            <img src="{{ asset('img/icons/trending.png') }}" alt="" style="height: 36px; width:36px">
+                            <h4>Top Trending Wallpaper Categories</h4>
+                        </span>
+                        <span>
+                            <a href="#" class="a-tag">View All Top Trending</a>
+                        </span>
                     </div>
-                </div>
-                <div class="col-md-3">
-					<div class="category__title">
-						<a href="https://wallpapers.com/brand" title="Brand Wallpaper">Brand</a>
-					</div>
-                    <div class="category__list">
-                        <a class="category__list__item" href="https://wallpapers.com/windows" title="Windows Wallpaper">Windows</a>
-                        <a class="category__list__item" href="https://wallpapers.com/google" title="Google Wallpaper">Google</a>
-                        <a class="category__list__item" href="https://wallpapers.com/supreme" title="Supreme Wallpaper">Supreme</a>
-                        <a class="category__list__item" href="https://wallpapers.com/animated-windows-10" title="Animated Windows 10 Wallpaper">Animated Windows 10</a>
-                        <a class="category__list__item" href="https://wallpapers.com/samsung" title="Samsung Wallpaper">Samsung</a>
-                        <a class="category__list__item" href="https://wallpapers.com/gucci" title="Gucci Wallpaper">Gucci</a>
-                        <a class="category__list__item" href="https://wallpapers.com/nike" title="Nike Wallpaper">Nike</a>
-                        <a class="category__list__item" href="https://wallpapers.com/microsoft" title="Microsoft Wallpaper">Microsoft</a>
-                        <a class="category__list__item" href="https://wallpapers.com/apple" title="Apple Wallpaper">Apple</a>
-                        <a class="category__list__item" href="https://wallpapers.com/msi" title="Msi Wallpaper">Msi</a>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="test2">MoneyHeist Wallpaper</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-					<div class="category__title">
-						<a href="https://wallpapers.com/car" title="Car Wallpaper">Car</a>
-					</div>
-                    <div class="category__list">
-                        <a class="category__list__item" href="https://wallpapers.com/lamborghini" title="Lamborghini Wallpaper">Lamborghini</a>
-                        <a class="category__list__item" href="https://wallpapers.com/bmw" title="Bmw Wallpaper">Bmw</a>
-                        <a class="category__list__item" href="https://wallpapers.com/tesla" title="Tesla Wallpaper">Tesla</a>
-                        <a class="category__list__item" href="https://wallpapers.com/mustang" title="Mustang Wallpaper">Mustang</a>
-                        <a class="category__list__item" href="https://wallpapers.com/ferrari" title="Ferrari Wallpaper">Ferrari</a>
-                        <a class="category__list__item" href="https://wallpapers.com/jdm" title="Jdm Wallpaper">Jdm</a>
-                        <a class="category__list__item" href="https://wallpapers.com/jeep" title="Jeep Wallpaper">Jeep</a>
-                        <a class="category__list__item" href="https://wallpapers.com/porsche" title="Porsche Wallpaper">Porsche</a>
-                        <a class="category__list__item" href="https://wallpapers.com/mclaren" title="Mclaren Wallpaper">Mclaren</a>
-                        <a class="category__list__item" href="https://wallpapers.com/audi" title="Audi Wallpaper">Audi</a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-					<div class="category__title">
-						<a href="https://wallpapers.com/cartoon" title="Cartoon Wallpaper">Cartoon</a>
-					</div>
-                    <div class="category__list">
-                        <a class="category__list__item" href="https://wallpapers.com/baby-yoda" title="Baby Yoda Wallpaper">Baby Yoda</a>
-                        <a class="category__list__item" href="https://wallpapers.com/spongebob" title="Spongebob Wallpaper">Spongebob</a>
-                        <a class="category__list__item" href="https://wallpapers.com/kirby" title="Kirby Wallpaper">Kirby</a>
-                        <a class="category__list__item" href="https://wallpapers.com/bt21" title="Bt21 Wallpaper">Bt21</a>
-                        <a class="category__list__item" href="https://wallpapers.com/mermaid" title="Mermaid Wallpaper">Mermaid</a>
-                        <a class="category__list__item" href="https://wallpapers.com/calvin-and-hobbes" title="Calvin And Hobbes Wallpaper">Calvin And Hobbes</a>
-                        <a class="category__list__item" href="https://wallpapers.com/mickey-mouse" title="Mickey Mouse Wallpaper">Mickey Mouse</a>
-                        <a class="category__list__item" href="https://wallpapers.com/pusheen" title="Pusheen Wallpaper">Pusheen</a>
-                        <a class="category__list__item" href="https://wallpapers.com/totoro" title="Totoro Wallpaper">Totoro</a>
-                        <a class="category__list__item" href="https://wallpapers.com/hello-kitty" title="Hello Kitty Wallpaper">Hello Kitty</a>
-                    </div></div>
-            </div>
+
         </main>
     </div>
 </body>

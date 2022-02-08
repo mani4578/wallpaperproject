@@ -55,31 +55,44 @@ svg {
 * {
     box-sizing: border-box;
 }
-
-
 .category__title {
     font-weight: 700;
 }
 div {
     display: block;
 }
-a, a:hover {
-    color: #011010;
-    text-decoration: none;
-}
-a {
-    /* color: #007bff;
-    text-decoration: none; */
-    background-color: transparent;
-    color: #011010;
-}
+
 .category__list__item:after {
     content: '\00B7';
     padding: 5px;
     font-weight: bolder;
     cursor: default;
 }
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.a-tag{
+    color: #011010;
+    text-decoration: none;
+}
 
+
+.test2 {
+    background-image: url("../img/sample.jpg");
+    line-height: 300px;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    position: absolute;
+    /* margin-top: 300px; */
+    text-align: center;
+    font-size: larger;
+    color: white;
+  }
 
 
 
