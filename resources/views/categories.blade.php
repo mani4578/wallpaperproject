@@ -22,7 +22,7 @@
                  <span class="navbar-toggler-icon"></span>
                </button> -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <div id="navbar" style="display: block">
+               <div id="navbar" style="display: block" class="nav-ul">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                      <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#" style="border-bottom: 5px solid orange;">Top</a>
