@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('categories', function () {
     return view('categories');
 });
+
+Route::get('addcat', function () {
+    return view('addcategory');
+});
