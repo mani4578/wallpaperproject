@@ -100,7 +100,21 @@ div {
     color: white;
   }
 
-
+.breadcrumb-item > a {
+    border-bottom: 2px solid #feb300;
+    text-decoration: none;
+    color: black;
+}
+.non-list {
+    list-style: none;
+    padding-left: 0px;
+}
+.footer-section-column {
+    border-right: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    padding-left: 30px;
+    padding-bottom: 34px;
+}
 
 @media (min-width: 800px){
 
@@ -125,3 +139,4 @@ main.front {
     flex-direction: column;
 }
 }
+
