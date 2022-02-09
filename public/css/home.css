@@ -1,3 +1,9 @@
+.searchbar{
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+}
+
 ul li{
     margin-left: 50px;
 }
@@ -97,6 +103,7 @@ div {
 
 
 @media (min-width: 800px){
+
 .search-form {
     height: 360px;
     padding: 60px 150px;

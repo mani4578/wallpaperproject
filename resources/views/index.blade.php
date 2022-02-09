@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -19,6 +20,7 @@
             <span class="navbar-toggler-icon"></span>
           </button> -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div id="navbar" style="display: block">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#" style="border-bottom: 5px solid orange;">Top</a>
@@ -46,16 +48,18 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
+            </div>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+              <input class="form-control me-2 searchbar" type="search" placeholder="Search" aria-label="Search" id="searchbar" style="display: none" >
+              <button class="btn btn-outline-success" type="submit" id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
             </form>
           </div>
         </div>
-      </nav>
-
-    <div class="container">
+    </nav>
+                    {{-- BODY --}}
+      <div class="container">
         <div class="search-form">
             <h1>
                 <img src="https://wallpapers.com/wp-content/themes/wallpapers.com/src/logo-white.svg" height="80" width="446" class="img-fluid" alt="Wallpapers">
@@ -487,5 +491,15 @@
 
         </main>
     </div>
+
+    <script>
+        $("document").ready(function(){
+            $('#search').click(function(){
+                // console.log("In");
+                $('#navbar').css("display", "none");
+                $('#searchbar').css("display", "block");
+            });
+        });
+    </script>
 </body>
 </html>
