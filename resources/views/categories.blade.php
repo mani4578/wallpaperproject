@@ -158,8 +158,9 @@
          $("document").ready(function(){
              $('#search').click(function(){
                  // console.log("In");
-                 $('#navbar').css("display", "none");
-                 $('#searchbar').css("display", "block");
+                $('#navbar').toggle();
+                $('#searchbar').toggle();
+
              });
          });
       </script>
