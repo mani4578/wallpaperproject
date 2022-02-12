@@ -2,9 +2,9 @@
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
             <img src="https://wallpapers.com/wp-content/themes/wallpapers.com/src/Logo.svg" alt="Wallpapers.com"
-            width="213" height="38" class="img-fluid">
+                width="213" height="38" class="img-fluid">
         </a>
-      {{-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        {{-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button> --}}
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,11 +45,10 @@
             <form class="d-flex">
 
                 <input class="form-control me-2 searchbar" type="search" placeholder="Search" aria-label="Search"
-                    id="searchbar" style="display: none">
+                    id="searchbar" style="display: none;width: 42rem;">
                 <button class="btn btn-outline-success" type="button" id="search"><i class="fa fa-search"
                         aria-hidden="true"></i></button>
             </form>
         </div>
     </div>
 </nav>
-
