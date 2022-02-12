@@ -55,7 +55,131 @@
                 </div>
             </div>
             <!-- END Dynamic Table Full -->
+
+                 <!-- Edit Modal -->
+    <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-top" role="document">
+            <div class="modal-content">
+                <form action="" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="block block-themed block-transparent mb-0">
+                        <div class="block-header bg-success">
+                            <h3 class="block-title">
+                                <i class="fa fa-pencil-alt mr-1"></i> Edit Category
+                            </h3>
+                            <div class="block-options">
+                                <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                                    <i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="block-content">
+                            <div class="form-group">
+                                <label>Category Name</label>
+                                <select class="custom-select" id="example-select-custom" name="api_name">
+                                    <option value="business">BUSSINESS</option>
+                                    <option value="sports">SPORTS</option>
+                                    <option value="entertainment">ENTERTAINMENT</option>
+                                    <option value="health">HEALTH</option>
+                                    <option value="science">SCI</option>
+                                    <option value="general">GENERAL</option>
+                                    <option value="technology">TECHNOLOGY</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Description</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div class="block-content block-content-full text-right border-top">
+                            <button type="button" class="btn btn-sm btn-ouline-success mr-2" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-sm btn-success">
+                                <i class="fa fa-pencil-alt mr-1"></i> Edit
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
+    </div>
+    <!-- END Edit Modal -->
+
+    <!-- Delete Modal -->
+    <div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-top" role="document">
+            <div class="modal-content">
+                <form action="" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="block block-themed block-transparent mb-0">
+                        <div class="block-header bg-danger">
+                            <h3 class="block-title">
+                                <i class="fa fa-trash mr-1"></i> Delete Category
+                            </h3>
+                            <div class="block-options">
+                                <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                                    <i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="block-content">
+                            <p>Do you want to delete this category</p>
+                        </div>
+                        <input class="form-control" type="hidden" id="message-id" name="id" value="">
+
+                        <div class="block-content block-content-full text-right border-top">
+                            <button type="button" class="btn btn-sm btn-ouline-danger mr-2" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-sm btn-danger">
+                                <i class="fa fa-trash mr-1"></i> Delete
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END Delte Modal -->
+        </div>
+
+     <!-- add Modal -->
+     <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-top" role="document">
+            <div class="modal-content">
+                <form action="" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="block block-themed block-transparent mb-0">
+                        <div class="block-header bg-success">
+                            <h3 class="block-title">
+                                <i class="fa fa-plus mr-1"></i> Add Category
+                            </h3>
+                            <div class="block-options">
+                                <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                                    <i class="fa fa-fw fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="block-content">
+                            <div class="form-group">
+                                <label for="message-email">Name</label>
+                                <input class="form-control" type="text" id="message-email" value="" name="name" placeholder="Category Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                            </div>
+                        </div>
+                        <div class="block-content block-content-full text-right border-top">
+                            <button type="button" class="btn btn-sm btn-outline-success mr-2" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-sm btn-success">
+                                <i class="fa fa-plus mr-1"></i> Add
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END add Modal -->
 @endsection
 @section('js')
     <script src="{{asset('js/plugins/datatables/jquery.dataTables.min.js')}}"></script>
