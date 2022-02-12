@@ -88,7 +88,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="">Description</label>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <textarea name="" id="" cols="30" rows="4"></textarea>
                             </div>
                         </div>
                         <div class="block-content block-content-full text-right border-top">
@@ -164,7 +164,7 @@
                             </div>
                             <div class="form-group">
                                 <label>Description</label>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <textarea name="" id="" cols="30" rows="4"></textarea>
 
                             </div>
                         </div>
