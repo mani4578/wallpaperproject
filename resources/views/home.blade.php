@@ -426,7 +426,7 @@
                     <div class="section-title">
                         <span class="d-flex" style="align-items: center">
                             <img src="{{ asset('img/icons/trending.png') }}" alt="" style="height: 36px; width:36px">
-                            <h4>Top Trending Wallpaper Categories</h4>
+                            <h4 style="margin:0">Top Trending Wallpaper Categories</h4>
                         </span>
                         <span>
                             <a href="#" class="a-tag">View All Top Trending</a>
@@ -441,75 +441,75 @@
 
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
                                 <div class="imagex"> <img class="img_cat"
                                         src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
                                         alt="">
                                     <div class="overlay">
-                                        <p class="h4">Group Tour in Maldives</p>
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
                                     </div>
                                 </div>
                             </div>
@@ -528,4 +528,3 @@
 @section('js')
 
 @endsection
-
