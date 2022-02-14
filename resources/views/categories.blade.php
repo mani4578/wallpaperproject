@@ -1,66 +1,8 @@
-<!doctype html>
-<html lang="en">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- Bootstrap CSS -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <link rel="stylesheet" href="{{ asset('css/home.css') }}">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
-      <title>Categories</title>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <div class="container">
-            <img src="https://wallpapers.com/wp-content/themes/wallpapers.com/src/Logo.svg" alt="Wallpapers.com" width="213" height="38" class="img-fluid">
-            <!-- <a class="navbar-brand" href="#">Navbar</a>
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
-               </button> -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-               <div id="navbar" style="display: block" class="nav-ul">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#" style="border-bottom: 5px solid orange;">Top</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="border-bottom: 5px solid red;">New</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="border-bottom: 5px solid blue;">Cool</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="border-bottom: 5px solid lightseagreen;">HD</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="border-bottom: 5px solid lightgreen;">Mobile</a>
-                     </li>
-                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="border-bottom: 5px solid green;">
-                        Categories
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <li><a class="dropdown-item" href="#">Action</a></li>
-                           <li><a class="dropdown-item" href="#">Another action</a></li>
-                           <li>
-                              <hr class="dropdown-divider">
-                           </li>
-                           <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                     </li>
-               </div>
-               </ul>
-               <form class="d-flex">
-                  <input class="form-control me-2 searchbar" type="search" placeholder="Search" aria-label="Search" id="searchbar" style="display: none" >
-                  <button class="btn btn-outline-success" type="submit" id="search"><i class="fa fa-search" aria-hidden="true"></i></button>
-               </form>
-            </div>
-         </div>
-      </nav>
+@extends('index')
+@section('css')
+@endsection
+
+@section('content')
       <div class="container">
          <nav style="--bs-breadcrumb-divider: '.';" aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -75,12 +17,153 @@
             Top Wallpapers
          </h2>
          <br>
-         <h3 style="font-size: 18px">
-            Check out our huge collection of high-quality Top Trending wallpapers that you don’t want to miss. With so many wallpapers to choose from, you'll definitely find something you like. Take a look and download our free wallpapers to your desktop, mobile phone or tablet today!
-         </h3>
+         <p>
+            Explore and download for free tons of high quality Money Heist wallpapers and backgrounds! Customize your desktop, mobile phone and tablet with our wide variety of cool and interesting Money Heist wallpapers and Money Heist backgrounds in just a few clicks.
+         </p>
          {{-- ---------------CARDS AREA--------------- --}}
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                    <a href="{{ url('/unicat') }}">
+                        <div class="imagex"> <img class="img_cat"
+                                src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt="">
+                            <div class="overlay">
+                                <p class="headings_cat_inner">Group Tour in Maldives</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
          {{-- ---------------CARDS AREA END--------------- --}}
       </div>
+
+      {{-- ----------------------Footer Type-------------------- --}}
       <div class="container mt-5">
          <div class="row">
             <div class="col-lg-3 col-sm-12 col-md-6 footer-section-column">
@@ -153,6 +236,8 @@
             </div>
          </div>
       </div>
+@endsection
+@section('js')
       {{-- ------------------JS Area-------------------- --}}
       <script>
          $("document").ready(function(){
@@ -164,5 +249,4 @@
              });
          });
       </script>
-   </body>
-</html>
+@endsection

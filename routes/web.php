@@ -24,3 +24,11 @@ Route::get('categories', function () {
 Route::get('addcat', function () {
     return view('addcategory');
 });
+
+Route::get('unicat', function(){
+    return view('unicategories');
+});
+
+Route::get('single', function(){
+    return view('single');
+});

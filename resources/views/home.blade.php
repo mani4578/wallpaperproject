@@ -432,13 +432,96 @@
                             <a href="#" class="a-tag">View All Top Trending</a>
                         </span>
                     </div>
-                    {{-- <div class="row">
-                        <div class="col-md-2">
-                            <div class="test2">MoneyHeist Wallpaper</div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
+                                <div class="imagex"> <img class="img_cat"
+                                        src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                        alt="">
+                                    <div class="overlay">
+                                        <p class="headings_cat_inner">Group Tour in Maldives</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
-                    </div> --}}
+                    </div>
 
-
+                </div>
+                <div>
+                    <div class="section-title">
+                        <span class="d-flex" style="align-items: center">
+                            <img src="{{ asset('img/icons/popular.png') }}" alt="" style="height: 36px; width:36px">
+                            <h4 style="margin:0">Popular Wallpaper Categories</h4>
+                        </span>
+                        <span>
+                            <a href="#" class="a-tag">View All Popular</a>
+                        </span>
+                    </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-3 col-md-4 col-sm-12 offset-md-0 offset-sm-0 px-0 margin_b pl-1">
@@ -525,33 +608,7 @@
     </div>
 
 
-    <!-- Gallery -->
-    <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
 
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
-
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
-        </div>
-
-        <div class="col-lg-4 mb-4 mb-lg-0">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
-
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-                class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
-        </div>
-    </div>
-    <!-- Gallery -->
 @endsection
 
 @section('js')
