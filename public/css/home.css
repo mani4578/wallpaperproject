@@ -207,6 +207,99 @@ div {
     padding: 10px 10px 10px 10px !important;
 }
 
+.post-image {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    margin-right: 10px;
+}
+.nickname {
+    color: #e0e0e0;
+}
+
+.share-fb {
+    background-color: #3a5a99;
+}
+.share-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share-tw {
+    background-color: #30a2f4;
+}
+.share-pt {
+    background-color: #be0d19;
+}
+.share-wa {
+    background-color: #69c442;
+}
+.share-em {
+    background-color: #ed7fb4;
+}
+
+.share-tabs {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid #ececec;
+}
+.share-tabs .share-tab.active {
+    border-bottom: 4px solid #2464c4;
+}
+
+.share-tabs .share-tab {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    padding-left: 0;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+.share-tab-contents {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    height: 44px;
+    padding-bottom: 28px;
+}
+.share-tab-contents .input-group {
+    height: 44px;
+    background-color: #ebf4f9;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.related-tag {
+    display: flex;
+    flex-wrap: wrap;
+}
+.related-tag .image-tag {
+    white-space: nowrap;
+    margin-bottom: 8px;
+}
+
+.image-tag {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    margin-right: 10px;
+}
 @media (min-width: 800px) {
     .search-form {
         height: 360px;
