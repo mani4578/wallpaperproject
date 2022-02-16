@@ -32,3 +32,7 @@ Route::get('unicat', function(){
 Route::get('single', function(){
     return view('single');
 });
+
+Route::get('upload' , function(){
+    return view('upload');
+});
