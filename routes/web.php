@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('test', [CategoryController::class, 'categories']);
 
 Route::get('/', function () {
     return view('home');
@@ -36,3 +38,4 @@ Route::get('single', function(){
 Route::get('upload' , function(){
     return view('upload');
 });
+
