@@ -31,13 +31,15 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach ($category as $cat)
+
                             <tr>
-                                <td class="text-center font-size-sm">1</td>
+                                <td class="text-center font-size-sm">{{ $cat->id }}</td>
                                 <td class="font-w600 font-size-sm">
-                                    <a href="be_pages_generic_blank.html">Megan Fuller</a>
+                                    <a href="be_pages_generic_blank.html">{{ $cat->cat_name }}</a>
                                 </td>
                                 <td class="d-none d-sm-table-cell font-size-sm">
-                                    client1<em class="text-muted">@example.com</em>
+                                    {{ $cat->description }}
                                 </td>
                                 <td class="text-center">
                                     <div class="btn-group">
@@ -50,14 +52,12 @@
                                     </div>
                                 </td>
                             </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+
+
             <!-- END Dynamic Table Full -->
 
                  <!-- Edit Modal -->
-    <div class="modal fade" id="edit-modal" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
+    <div class="modal fade" id="edit-modal{{ $cat->id }}" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
         <div class="modal-dialog modal-dialog-top" role="document">
             <div class="modal-content">
                 <form action="" method="POST" enctype="multipart/form-data">
@@ -76,15 +76,7 @@
                         <div class="block-content">
                             <div class="form-group">
                                 <label>Category Name</label>
-                                <select class="custom-select" id="example-select-custom" name="api_name">
-                                    <option value="business">BUSSINESS</option>
-                                    <option value="sports">SPORTS</option>
-                                    <option value="entertainment">ENTERTAINMENT</option>
-                                    <option value="health">HEALTH</option>
-                                    <option value="science">SCI</option>
-                                    <option value="general">GENERAL</option>
-                                    <option value="technology">TECHNOLOGY</option>
-                                </select>
+                                <input class="form-control" type="text" id="message-email" value="" name="cat_name" placeholder="Category Name">
                             </div>
                             <div class="form-group">
                                 <label for="">Description</label>
@@ -139,12 +131,18 @@
     </div>
     <!-- END Delte Modal -->
         </div>
+        @endforeach
+
+    </tbody>
+</table>
+</div>
+</div>
 
      <!-- add Modal -->
      <div class="modal fade" id="add-modal" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
         <div class="modal-dialog modal-dialog-top" role="document">
             <div class="modal-content">
-                <form action="" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('create_cat') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="block block-themed block-transparent mb-0">
                         <div class="block-header bg-success">
@@ -160,11 +158,11 @@
                         <div class="block-content">
                             <div class="form-group">
                                 <label for="message-email">Name</label>
-                                <input class="form-control" type="text" id="message-email" value="" name="name" placeholder="Category Name">
+                                <input class="form-control" type="text" id="message-email" value="" name="cat_name" placeholder="Category Name">
                             </div>
                             <div class="form-group">
                                 <label>Description</label>
-                                <textarea name="" id="" cols="30" rows="4"></textarea>
+                                <textarea name="description" id="" cols="30" rows="4"></textarea>
 
                             </div>
                         </div>

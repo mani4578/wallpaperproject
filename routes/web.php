@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('test', [CategoryController::class, 'categories']);
-
+Route::get('allcategories', [CategoryController::class, 'categories']);
+Route::get('edit_cat', [CategoryController::class, 'edit_cat'])->name('edit_cat');
+Route::get('delete_cat', [CategoryController::class, 'delete_cat'])->name('delete_cat');
+Route::post('create', [CategoryController::class, 'create'])->name('create_cat');
 Route::get('/', function () {
     return view('home');
 });
