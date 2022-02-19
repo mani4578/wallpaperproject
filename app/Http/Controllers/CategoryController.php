@@ -42,9 +42,16 @@ class CategoryController extends Controller
 
     public function delete_cat(Request $request)
     {
+        // dd($request->all());
         $id = $request->id;
         Category::where('id',$id)->delete();
+        return redirect()->back();
+    }
 
+    public function del_cat($id)
+    {
+        // dd($id);
+        Category::where('id',$id)->delete();
         return redirect()->back();
     }
 }

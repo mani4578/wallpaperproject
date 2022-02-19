@@ -22,7 +22,7 @@
                         <div class="form-group">
                             <label for="category">Select Category</label>
                             <select class="form-control" id="category" name="category" required>
-                              <option value="A">A</option>
+                              <option value="A(id)">A(name)</option>
                               <option value="B">B</option>
                               <option value="C">C</option>
                               <option value="D">D</option>

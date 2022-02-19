@@ -43,10 +43,10 @@
                                 </td>
                                 <td class="text-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-success"  data-toggle="modal" data-target="#edit-modal">
+                                        <button type="button" class="btn btn-sm btn-success"  data-toggle="modal" data-target="#edit-modal{{ $cat->id }}">
                                             <i class="fa fa-fw fa-pencil-alt"></i>
                                         </button>
-                                        <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#delete-modal" >
+                                        <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#delete-modal{{ $cat->id }}" >
                                             <i class="fa fa-fw fa-times"></i>
                                         </button>
                                     </div>
@@ -60,7 +60,7 @@
     <div class="modal fade" id="edit-modal{{ $cat->id }}" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
         <div class="modal-dialog modal-dialog-top" role="document">
             <div class="modal-content">
-                <form action="" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('edit_cat') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="block block-themed block-transparent mb-0">
                         <div class="block-header bg-success">
@@ -76,11 +76,11 @@
                         <div class="block-content">
                             <div class="form-group">
                                 <label>Category Name</label>
-                                <input class="form-control" type="text" id="message-email" value="" name="cat_name" placeholder="Category Name">
+                                <input class="form-control" type="text" id="message-email"  name="cat_name" value="{{ $cat->cat_name }}">
                             </div>
                             <div class="form-group">
                                 <label for="">Description</label>
-                                <textarea name="" id="" cols="30" rows="4"></textarea>
+                                <textarea name="description" id="" cols="30" rows="4">{{ $cat->description }}</textarea>
                             </div>
                         </div>
                         <div class="block-content block-content-full text-right border-top">
@@ -97,10 +97,10 @@
     <!-- END Edit Modal -->
 
     <!-- Delete Modal -->
-    <div class="modal fade" id="delete-modal" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
+    <div class="modal fade" id="delete-modal{{ $cat->id }}" tabindex="-1" role="dialog" aria-labelledby="one-inbox-new-message" aria-hidden="true">
         <div class="modal-dialog modal-dialog-top" role="document">
             <div class="modal-content">
-                <form action="" method="POST" enctype="multipart/form-data">
+                {{-- <form action="{{ route('delete_cat') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="block block-themed block-transparent mb-0">
                         <div class="block-header bg-danger">
@@ -116,7 +116,7 @@
                         <div class="block-content">
                             <p>Do you want to delete this category</p>
                         </div>
-                        <input class="form-control" type="hidden" id="message-id" name="id" value="">
+                        <input class="form-control" type="hidden" id="message-id" name="id" value="{{ $cat->id }}">
 
                         <div class="block-content block-content-full text-right border-top">
                             <button type="button" class="btn btn-sm btn-ouline-danger mr-2" data-dismiss="modal">Cancel</button>
@@ -125,7 +125,31 @@
                             </button>
                         </div>
                     </div>
-                </form>
+                </form> --}}
+                <div class="block block-themed block-transparent mb-0">
+                    <div class="block-header bg-danger">
+                        <h3 class="block-title">
+                            <i class="fa fa-trash mr-1"></i> Delete Category
+                        </h3>
+                        <div class="block-options">
+                            <button type="button" class="btn-block-option" data-dismiss="modal" aria-label="Close">
+                                <i class="fa fa-fw fa-times"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <p>Do you want to delete this category</p>
+                    </div>
+                    <input class="form-control" type="hidden" id="message-id" name="id" value="">
+
+                    <div class="block-content block-content-full text-right border-top">
+                        <button type="button" class="btn btn-sm btn-ouline-danger mr-2" data-dismiss="modal">Cancel</button>
+                        <a href="{{ url('del_cat/'.$cat->id) }}">
+                        <button type="submit" class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash mr-1"></i> Delete
+                        </button></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
