@@ -9,7 +9,7 @@
 
     <!--Create Upload Post Start-->
     <div class="container">
-        <form method="post" action="" id="upload_form" enctype="multipart/form-data">
+        <form method="post" action="{{ route('upload_wall') }}" id="upload_form" enctype="multipart/form-data">
             @csrf
             <div class="content block">
                 <div class="block">
@@ -17,11 +17,11 @@
                         <h1>Upload New Wallpaper</h1>
                         <div class="form-group">
                             <label for="title">Title</label>
-                            <input type="text" class="form-control" id="title" placeholder="Title" name="title" required>
+                            <input type="text" class="form-control" id="title" placeholder="Title" name="name" required>
                         </div>
                         <div class="form-group">
                             <label for="category">Select Category</label>
-                            <select class="form-control" id="category" name="category" required>
+                            <select class="form-control" id="category" name="cat_id" required>
                               <option value="A(id)">A(name)</option>
                               <option value="B">B</option>
                               <option value="C">C</option>
@@ -31,11 +31,11 @@
                         </div>
                         <div class="form-group">
                             <label for="summernote"><b>Description</b></label>
-                        <textarea id="summernote" class="smrnote" name="disc" style="height: 150px;" required></textarea>
+                        <textarea id="summernote" class="smrnote" name="description" style="height: 150px;" required></textarea>
                     </div>
                         <div class="form-group">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" data-toggle="custom-file-input" id="main_image" name="main_image"  onchange="validateImage()" required>
+                                <input type="file" class="custom-file-input" data-toggle="custom-file-input" id="main_image" name="img"  onchange="validateImage()" required>
                                 <label class="custom-file-label" for="main_image">Choose file</label>
                             </div>
                         </div>
@@ -44,7 +44,7 @@
                             <div class="col-sm-9">
                             </div>
                             <div class="col-sm-3">
-                                <input type="submit" name="submit" class="btn btn-success" value="Publish">
+                                <input type="submit" class="btn btn-success" value="Publish">
                                 {{-- <input type="submit" name="submit" class="btn btn-outline-success" value="Save as Draft"> --}}
                             </div>
 

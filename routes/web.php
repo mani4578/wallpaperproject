@@ -23,6 +23,8 @@ Route::post('delete_cat', [CategoryController::class, 'delete_cat'])->name('dele
 Route::get('del_cat/{id}', [CategoryController::class, 'del_cat'])->name('del_cat');
 Route::post('create', [CategoryController::class, 'create'])->name('create_cat');
 
+Route::post('upload', [DashboardController::class, 'upload'])->name('upload_wall');
+
 
 Route::get('categories', function () {
     return view('categories');
@@ -40,7 +42,7 @@ Route::get('single', function(){
     return view('single');
 });
 
-Route::get('upload' , function(){
+Route::get('uploads' , function(){
     return view('upload');
 });
 
