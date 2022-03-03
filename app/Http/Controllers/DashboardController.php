@@ -22,6 +22,7 @@ class DashboardController extends Controller
         $description = $request->description;
         $category_id = $request->cat_id;
         $img = $request->img;
+        // dd($request->all());
 
         $request->validate([
             'img' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
@@ -33,9 +34,9 @@ class DashboardController extends Controller
 
         /* Store $imageName name in DATABASE from HERE */
 
-        return back()
-            ->with('success','You have successfully upload image.')
-            ->with('img',$imageName);
+        // return back()
+        //     ->with('success','You have successfully upload image.')
+        //     ->with('img',$imageName);
 
         // dd($request->all());
         // return view('upload');
@@ -44,7 +45,7 @@ class DashboardController extends Controller
         $wallpaper->name = $name;
         $wallpaper->description = $description;
         $wallpaper->cat_id = $category_id;
-        $wallpaper->img = $img;
+        $wallpaper->img = $imageName;
 
         $wallpaper->save();
 

@@ -22,11 +22,15 @@
                         <div class="form-group">
                             <label for="category">Select Category</label>
                             <select class="form-control" id="category" name="cat_id" required>
-                              <option value="A(id)">A(name)</option>
-                              <option value="B">B</option>
-                              <option value="C">C</option>
-                              <option value="D">D</option>
-                              <option value="E">E</option>
+                              @php
+                                  $cat = DB::table('categories')->get();
+                              @endphp
+                               <option value="0" selected hidden>Please select</option>
+                               @foreach ($cat as $single_cat)
+                                   <option value="{{ $single_cat->id }}">{{ $single_cat->cat_name }}</option>
+                               @endforeach
+                                {{-- <option value="A(id)">A(name)</option> --}}
+
                             </select>
                         </div>
                         <div class="form-group">
