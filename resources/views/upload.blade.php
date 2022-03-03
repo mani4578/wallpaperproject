@@ -21,7 +21,7 @@
                         </div>
                         <div class="form-group">
                             <label for="category">Select Category</label>
-                            <select class="form-control" id="category" name="cat_id" required>
+                            <select class="form-control" id="category" name="category_id" required>
                               @php
                                   $cat = DB::table('categories')->get();
                               @endphp

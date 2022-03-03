@@ -20,7 +20,7 @@ class DashboardController extends Controller
     {
         $name = $request->name;
         $description = $request->description;
-        $category_id = $request->cat_id;
+        $category_id = $request->category_id;
         $img = $request->img;
         // dd($request->all());
 
@@ -44,7 +44,7 @@ class DashboardController extends Controller
         $wallpaper = new Wallpaper();
         $wallpaper->name = $name;
         $wallpaper->description = $description;
-        $wallpaper->cat_id = $category_id;
+        $wallpaper->category_id = $category_id;
         $wallpaper->img = $imageName;
 
         $wallpaper->save();
