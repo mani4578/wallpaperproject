@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Category;
-
-
+use App\Models\Wallpaper;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -28,13 +27,27 @@ class DashboardController extends Controller
             'img' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
 
-        if ($image = $request->file('image')) {
-            $destinationPath = 'img/';
-            $profileImage = date('YmdHis') . "." . $image->getClientOriginalExtension();
-            $image->move($destinationPath, $profileImage);
-            $input['image'] = "$profileImage";
-        }
-        dd($request->all());
-        return view('upload');
+        $imageName = time().'.'.$request->img->extension();
+
+        $request->img->move(public_path('img'), $imageName);
+
+        /* Store $imageName name in DATABASE from HERE */
+
+        return back()
+            ->with('success','You have successfully upload image.')
+            ->with('img',$imageName);
+
+        // dd($request->all());
+        // return view('upload');
+
+        $wallpaper = new Wallpaper();
+        $wallpaper->name = $name;
+        $wallpaper->description = $description;
+        $wallpaper->cat_id = $category_id;
+        $wallpaper->img = $img;
+
+        $wallpaper->save();
+
+        return redirect()->route('home');
     }
 }

@@ -41,9 +41,9 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-sm-9">
+                            <div class="col-sm-11">
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-sm-1">
                                 <input type="submit" class="btn btn-success" value="Publish">
                                 {{-- <input type="submit" name="submit" class="btn btn-outline-success" value="Save as Draft"> --}}
                             </div>
