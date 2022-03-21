@@ -83,21 +83,21 @@
             var fileName = $(this).val().split("\\").pop();
             $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
             });
-</script>
-<script>
-     function validateImage() {
-        var formData = new FormData();
-        var file = document.getElementById("main_image").files[0];
-        // console.log(file);
-        formData.append("Filedata", file);
-        var t = file.type.split('/').pop().toLowerCase();
-        if (t != "jpeg" && t != "jpg" && t != "png" && t != "bmp" && t != "gif") {
-            alert('Please select a valid image file');
-            document.getElementById("main_image").value = '';
-            return false;
+    </script>
+    <script>
+        function validateImage() {
+            var formData = new FormData();
+            var file = document.getElementById("main_image").files[0];
+            // console.log(file);
+            formData.append("Filedata", file);
+            var t = file.type.split('/').pop().toLowerCase();
+            if (t != "jpeg" && t != "jpg" && t != "png" && t != "bmp" && t != "gif") {
+                alert('Please select a valid image file');
+                document.getElementById("main_image").value = '';
+                return false;
+            }
+            return true;
         }
-        return true;
-     }
-</script>
+    </script>
 
-    @endsection
+@endsection

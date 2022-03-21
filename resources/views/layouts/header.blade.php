@@ -49,6 +49,11 @@
                 <button class="btn btn-outline-success" type="button" id="search"><i class="fa fa-search"
                         aria-hidden="true"></i></button>
             </form>
+
+            <div style="margin-left: 20px;">
+                <a href="{{ url('addcat') }}"><button class="btn btn-outline-success">Add Cat</button></a>
+                <a href="{{ url('uploads') }}"><button class="btn btn-success">Add Wall</button></a>
+            </div>
         </div>
     </div>
 </nav>
